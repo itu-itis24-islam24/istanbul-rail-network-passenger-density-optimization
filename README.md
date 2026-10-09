@@ -67,7 +67,9 @@ python match_affects.py
 
 Developed by four ITU Artificial Intelligence and Data Engineering students: [@erdemhasbek](https://github.com/erdemhasbek), [@itu-itis24-gozutoka24](https://github.com/itu-itis24-gozutoka24), [@itu-itis24-dut23](https://github.com/itu-itis24-dut23) and [@itu-itis24-islam24](https://github.com/itu-itis24-islam24).
 
-**My contribution (Emir Selim İslam):** collected and cleaned the 162 Big Three home-match fixtures with a regex-based parsing pipeline (`converting_webscrab_into_csv.ipynb`). These fixtures feed the match-day demand features in steps 8 and 9.
+**My contribution (Emir Selim İslam):**
+- Collected and cleaned the 162 Big Three home-match fixtures with a regex-based parsing pipeline (`converting_webscrab_into_csv.ipynb`). These fixtures feed the match-day demand features in steps 8 and 9.
+- Formulated the cost function that balances passenger crowding (load ratio) against operational effort (extra trips), and researched optimization models to minimize it.
 
 ## License
 
