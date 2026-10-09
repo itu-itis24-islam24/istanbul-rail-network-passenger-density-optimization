@@ -1,0 +1,20 @@
+﻿Hat_Adi,Arac_Tipi,Set_Kapasitesi_Yolcu,Toplam_Arac_Sayisi,Ortalama_Hiz_km_h,Set_Uzunlugu_Vagon,Kaynak_Link
+F1,Füniküler (Doppelmayr),375,4,30,2,https://www.metro.istanbul/Hatlarimiz
+F2,Tarihi Tünel,170,2,10,2,https://iett.istanbul/icerik/tunel
+F3,Füniküler,250,4,15,2,https://www.metro.istanbul/Hatlarimiz
+F4,Füniküler,200,2,20,2,https://www.metro.istanbul/Hatlarimiz
+M1,ABB,1000,105,30,4,https://www.metro.istanbul/Hatlarimiz
+M2,Hyundai Rotem / Alstom,1600,180,40,8,https://www.metro.istanbul/Hatlarimiz
+M3,Alstom Metropolis,1100,80,35,4,https://www.metro.istanbul/Hatlarimiz
+M4,CAF,2200,144,38,8,https://www.metro.istanbul/Hatlarimiz
+M5,Mitsubishi / CAF,1620,126,38,6,https://www.metro.istanbul/Hatlarimiz
+M6,Alstom,1000,12,25,4,https://www.metro.istanbul/Hatlarimiz
+M7,Hyundai Rotem,1100,80,38,4,https://www.metro.istanbul/Hatlarimiz
+M8,Hyundai Rotem,1100,40,35,4,https://www.metro.istanbul/Hatlarimiz
+M9,Alstom / Hyundai,1100,50,35,4,https://www.metro.istanbul/Hatlarimiz
+M11,CRRC ZELC,1100,80,80,4,https://www.uab.gov.tr/
+MARMARAY,Hyundai Rotem,3000,440,45,10,https://marmaray.gov.tr/
+T1,Bombardier / Alstom,600,92,18,2,https://www.metro.istanbul/Hatlarimiz
+T3,Gotha / Reko,70,10,10,1,https://www.metro.istanbul/Hatlarimiz
+T4,ABB / Hyundai / RTE,750,83,25,3,https://www.metro.istanbul/Hatlarimiz
+T5,Durmazlar Panorama,250,30,20,2,https://www.metro.istanbul/Hatlarimiz

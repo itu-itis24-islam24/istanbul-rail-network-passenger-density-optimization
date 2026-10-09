@@ -1,0 +1,16 @@
+line,system_type,standard_capacity_passengers,effort_per_extra_trip,effort_unit,cost_interpretation,total_vehicle_count,avg_speed_kmh,standard_wagon_count
+F1,funicular_or_cable,375,1.0,one additional standard trip,"normalized operational effort, not monetary cost",4,30,2
+F2,funicular_or_cable,170,1.0,one additional standard trip,"normalized operational effort, not monetary cost",2,10,2
+F3,funicular_or_cable,250,1.0,one additional standard trip,"normalized operational effort, not monetary cost",4,15,2
+F4,funicular_or_cable,200,1.0,one additional standard trip,"normalized operational effort, not monetary cost",2,20,2
+MARMARAY,marmaray,3000,1.0,one additional standard trip,"normalized operational effort, not monetary cost",440,45,10
+M1,metro,1000,1.0,one additional standard trip,"normalized operational effort, not monetary cost",105,30,4
+M11,metro,1100,1.0,one additional standard trip,"normalized operational effort, not monetary cost",80,80,4
+M2,metro,1600,1.0,one additional standard trip,"normalized operational effort, not monetary cost",180,40,8
+M3,metro,1100,1.0,one additional standard trip,"normalized operational effort, not monetary cost",80,35,4
+M4,metro,2200,1.0,one additional standard trip,"normalized operational effort, not monetary cost",144,38,8
+M5,metro,1620,1.0,one additional standard trip,"normalized operational effort, not monetary cost",126,38,6
+M6,metro,1000,1.0,one additional standard trip,"normalized operational effort, not monetary cost",12,25,4
+M7,metro,1100,1.0,one additional standard trip,"normalized operational effort, not monetary cost",80,38,4
+M8,metro,1100,1.0,one additional standard trip,"normalized operational effort, not monetary cost",40,35,4
+M9,metro,1100,1.0,one additional standard trip,"normalized operational effort, not monetary cost",50,35,4
