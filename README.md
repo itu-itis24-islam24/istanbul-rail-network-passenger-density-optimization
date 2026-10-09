@@ -70,7 +70,7 @@ Computed by the dashboard against the current timetable (2,139 trips, 5.7M passe
 | M3 | 270 → 168 | +58% |
 | M6 | 156 → 63 | +143% |
 
-Because all passenger-minutes count equally, the model moves trips from lightly used lines (M3, M4, M6) to the busiest ones (M2, M5, Marmaray). As a sensitivity check, if every line keeps its own daily trip count and trips are only moved between hours, network waiting falls by about 6.5%, with M2 alone improving by 23%.
+Because all passenger-minutes count equally, the model moves trips from lightly used lines (M3, M4, M6) to the busiest ones (M2, M5, Marmaray). Two sensitivity checks with the same model: keeping exactly today's 2,139 trips and only reallocating them cuts waiting by about 14%. If every line also keeps its own daily trip count and trips only move between hours, waiting falls by about 6.5%, with M2 alone improving by 23%.
 
 ## Assumptions and limitations
 
@@ -122,7 +122,7 @@ A single self-contained HTML file (Chart.js), with no server needed. Moving the 
 
 **Known pipeline issues**
 - `create_baseline_load_ratios.py` drops Marmaray because the timetable file spells it `Marmaray` and the demand file `MARMARAY`.
-- The match baseline uses all non-match days in 2022–2025, while matches cover Nov 2022 – Oct 2024. Ridership trends between these periods appear as a few thousand passengers of extra demand even 12 hours before and after kickoff.
+- The match baseline uses all non-match days in 2022–2025, while matches cover Nov 2022 – Oct 2024. This may be why the data shows several thousand extra passengers even 12 hours before and after kickoff.
 
 ## Future work
 
@@ -139,7 +139,6 @@ Emir Selim İslam, Atillahan Gözütok, Erdem Hasbek and Huzeyfe Dut – Istanbu
 **My contribution (Emir Selim İslam):**
 - Formulated the unified objective function, which combines network-wide passenger waiting time with a money importance penalty on train trips, and researched methods for minimizing it.
 - Collected and cleaned the 162 Big Three home-match fixtures with a regex-based parsing pipeline (`converting_webscrab_into_csv.ipynb`). These fixtures feed the dashboard's match impact view.
-- Audited the first dashboard version and corrected the waiting-time formula, the treatment of closed hours and the match-day calculation (v2).
 
 ## License
 
